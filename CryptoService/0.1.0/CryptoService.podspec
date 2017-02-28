@@ -24,11 +24,11 @@ CryptoService is a wrapper around CommonCrypto library. SHA512, AES.
   s.homepage         = 'https://github.com/dmachalau/CryptoService'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'dmachalau' => 'Dzmitry.Machalau@dyson.com' }
-  s.source           = { :git => 'https://github.com/dmachalau/CryptoService.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dmachalau/CryptoService.git', :tag => s.version }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'CryptoService/Sources/**/*'
-  s.public_header_files = 'Pod/Sources/**/*.h'
+  s.public_header_files = 'CryptoService/Sources/**/*.h'
 end
